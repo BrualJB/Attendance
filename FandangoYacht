@@ -1,0 +1,14 @@
+
+public class FandangoYacht extends Vehicle {
+String MainsailColor = "White";
+
+void Float() {
+	System.out.println("Boat will now sail!");
+}
+
+@Override
+void Stop() {
+	System.out.println("System Override");
+	super.Stop();
+}
+}
