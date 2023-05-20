@@ -1,0 +1,14 @@
+
+public class BoatTest {
+public static void main(String args[]) {
+	FandangoYacht pln = new FandangoYacht();
+	
+System.out.println(pln.Color);
+System.out.println(pln.Price);
+System.out.println(pln.Speed);
+System.out.println(pln.MainsailColor);
+
+pln.Float();
+pln.Stop();
+}
+}
